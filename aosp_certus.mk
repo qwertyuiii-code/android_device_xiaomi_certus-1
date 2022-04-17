@@ -18,10 +18,7 @@
 $(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
-
-# Official tag
-PIXYS_BUILD_TYPE := OFFICIAL
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
