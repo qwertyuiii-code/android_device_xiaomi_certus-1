@@ -9,7 +9,9 @@ PRODUCT_PRODUCT_PROPERTIES  += \
 
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES  += \
-    debug.sf.enable_gl_backpressure=1
+    debug.sf.enable_gl_backpressure=1 \
+    debug.sf.latch_unsignaled=0 \
+    sys.use_fifo_ui=0
 
 # IMS
 PRODUCT_PRODUCT_PROPERTIES  += \

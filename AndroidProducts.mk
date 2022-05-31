@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_certus.mk
+    $(LOCAL_DIR)/havoc_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_certus-user \
-    aosp_certus-userdebug \
-    aosp_certus-eng
+    havoc_certus-user \
+    havoc_certus-userdebug \
+    havoc_certus-eng
