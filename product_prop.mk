@@ -21,6 +21,10 @@ PRODUCT_PRODUCT_PROPERTIES  += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.vendor.vilte_support=0
 
+# Screen Density
+PRODUCT_PRODUCT_PROPERTIES  += \
+    ro.sf.lcd_density=295
+
 # Media
 PRODUCT_PRODUCT_PROPERTIES  += \
    media.stagefright.thumbnail.prefer_hw_codecs=true
