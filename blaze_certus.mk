@@ -40,13 +40,10 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := certus
-PRODUCT_NAME := cherish_certus
+PRODUCT_NAME := blaze_certus
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6 / Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Cherish_Magic
-CHERISH_BUILD_TYPE := OFFICIAL
-CHERISH_VANILLA := true
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Chikoni_UwU
+BLAZE_MAINTAINER := Chikoni_UwU
+WITH_GAPPS := false
