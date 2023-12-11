@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_certus.mk
+    $(LOCAL_DIR)/havoc_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_certus-user \
-    nad_certus-userdebug \
-    nad_certus-eng
+    havoc_certus-user \
+    havoc_certus-userdebug \
+    havoc_certus-eng
